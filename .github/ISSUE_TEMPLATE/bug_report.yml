@@ -11,7 +11,6 @@ body:
       placeholder: "e.g. 1.21.11"
     validations:
       required: true
-
   - type: input
     id: loader
     attributes:
@@ -20,7 +19,6 @@ body:
       placeholder: "e.g. Fabric"
     validations:
       required: true
-
   - type: input
     id: mod-version
     attributes:
@@ -29,8 +27,7 @@ body:
       placeholder: "e.g. 0.1.0-alpha.1"
     validations:
       required: true
-
-    - type: input
+  - type: input
     id: system
     attributes:
       label: Your System
@@ -38,7 +35,6 @@ body:
       placeholder: "e.g. Windows 11"
     validations:
       required: true
-
   - type: textarea
     id: reproduce
     attributes:
@@ -50,7 +46,6 @@ body:
         3. 
     validations:
       required: true
-
   - type: textarea
     id: logs
     attributes:
@@ -59,8 +54,7 @@ body:
       render: shell
     validations:
       required: true
-      
-    - type: textarea
+  - type: textarea
     id: mod-list
     attributes:
       label: Your Mod List
@@ -68,7 +62,6 @@ body:
       render: shell
     validations:
       required: true
-
   - type: textarea
     id: additional
     attributes:
