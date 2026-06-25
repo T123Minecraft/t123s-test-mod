@@ -16,7 +16,9 @@ jobs:
       - name: Read Java Version
         id: java
         run: |
-          echo "version=$(grep '^java_version=' gradle.properties | cut -d'=' -f2)" >> $GITHUB_OUTPUT
+          VERSION=$(grep 'java_version' gradle.properties | head -n 1 | cut -d'=' -f2 | tr -d ' \r')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Java version = $VERSION"
 
       - name: Setup JDK
         uses: actions/setup-java@v4
