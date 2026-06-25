@@ -8,8 +8,8 @@
 		"T123Minecraft"
 	],
 	"contact": {
-		"sources": "",
-		"issues": ""
+		"sources": "https://github.com/T123Minecraft/t123s-test-mod-template-1.21.11",
+		"issues": "https://github.com/T123Minecraft/t123s-test-mod-template-1.21.11/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/t123s-test-mod/icon.png",

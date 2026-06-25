@@ -1,5 +1,7 @@
 package com.t123minecraft.t123s_test_mod;
 
+import com.t123minecraft.t123s_test_mod.item.ModItemGroups;
+import com.t123minecraft.t123s_test_mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +20,9 @@ public class T123sTestMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 
 		LOGGER.info("Hello Fabric world!");
 	}
