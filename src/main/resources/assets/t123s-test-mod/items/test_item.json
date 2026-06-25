@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "t123s-test-mod:item/test_item"
+  }
+}
