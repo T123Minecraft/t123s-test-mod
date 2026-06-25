@@ -1,6 +1,6 @@
 name: Bug Report
 description: "向我报告模组的bug | Report the mod's bugs to me"
-title: "[Bug]"
+title: "[Bug] "
 labels: ["bug"]
 assignees: T123Minecraft
 
