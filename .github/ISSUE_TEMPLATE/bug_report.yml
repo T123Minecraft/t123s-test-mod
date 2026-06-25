@@ -83,6 +83,6 @@ body:
     id: extra
     attributes:
       label: "额外信息 | Extra Information"
-      description: "一些可选择上传的额外信息 | Some optional extra information that can be uploaded"
+      description: "一些可选的补充内容 | Optional additional information"
     validations:
       required: false
